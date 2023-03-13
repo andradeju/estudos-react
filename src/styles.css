@@ -1,0 +1,34 @@
+/* Os estilos serão globais */
+
+body {
+    background-color: #282828;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 350px;
+}
+
+h1{
+    color: #F0F6FC;
+}
+
+.titulo {
+    color: #F0F6FC;
+}
+
+.paragrafo{
+    color: #F0F6FC;
+    font-style: italic;
+    padding: 8px;
+}
+
+.mensagem {
+    color: #F0F6FC;
+    padding: 8px;
+}
