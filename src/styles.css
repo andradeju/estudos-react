@@ -14,6 +14,10 @@ img {
     width: 350px;
 }
 
+.img-post{
+    border-radius: 8px;
+}
+
 h1{
     color: #F0F6FC;
 }
@@ -31,4 +35,38 @@ h1{
 .mensagem {
     color: #F0F6FC;
     padding: 8px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    width: 60%;
+}
+
+.img-post {
+    width: 40%;
+    margin-right: 20px;
+    height: 20%;
+}
+
+.postagem {
+    color: #F0F6FC;
+    padding: 8px;
+    flex: 1;
+    text-align: left;
+}
+
+footer {
+    margin: 18px;
+    color: #F0F6FC;
 }
